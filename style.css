@@ -1,0 +1,33 @@
+html,
+body {
+  background-color: #1c1c1c !important;
+  color: white !important;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1,
+h2 {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.carta {
+  position: relative;
+  width: 19%;
+  animation: bounceInDown;
+  animation-duration: 0.1s;
+}
+
+button:hover {
+  animation: pulse;
+  animation-duration: 0.4s;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+  min-height: 130px;
+  margin-bottom: 10px;
+}
